@@ -14,7 +14,7 @@ public class Programa{
          System.out.println("Nome: ");
          produto1.nome = scanner.nextLine();
          System.out.println("Preco");
-         produto.preco= scanner.nextDouble();
+         produto1.preco= scanner.nextDouble();
          System.out.println("Quantidade: ");
          produto1.quantidade=scanner.nextInt();
 
@@ -29,10 +29,10 @@ public class Programa{
         //Mostrar mensagem
         System.out.printf("Eentre com numero de produtos para remover do estoque: ");
         estoque = scanner.nextInt();
-        produto1.RemoverProduto(estoque);
+        produto1.RemoveProduto(estoque);
 
         //Mostrar mensagem
-        System.out.println(produto1.mensagem());
+        System.out.println(produto1.mensagem()); 
 
 
     }
